@@ -22,7 +22,7 @@ const call = (from, to, token) => request.post(route('/composto'))
             {
                 acao: 'audio',
                 acao_dados: {
-                    url_audio: 'https://github.com/haskellcamargo/gemidao-do-zap/raw/master/resources/gemidao.mp3'
+                    url_audio: 'https://github.com/kallklen/human-guitar/blob/master/resources/guitarra_humana.mp3'
                 }
             }
         ],
