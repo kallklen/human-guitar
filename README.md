@@ -1,20 +1,17 @@
-# Gemidão do Zap
+# Guitarra Humana
 
 > O brasileiro precisa ser estudado
 
 ## O que é isso?
 
-O _Gemidão do Zap_ é uma aplicação escrita sobre o NodeJS que permite que você
-envie o gemidão do zap para seus amigos via chamada telefônica e simulando o
+O _Human_Guitar_ é uma aplicação escrita sobre o NodeJS que permite que você
+envie o guitarra humana para seus amigos via chamada telefônica e simulando o
 número telefônico de pessoas conhecidas.
 
-Por exemplo, eu posso enviar o gemidão do zap para meu amigo simulando uma
-ligação da mãe dele e, quando ele atender, _AAAWN OOOWN NHAAA AWWWWN AAAAAH_
-(inclusive, você acabou de cair no gemidão do zap escrito).
+Por exemplo, eu posso enviar o guitarra humana para meu amigo simulando uma
+ligação da mãe dele e, quando ele atender, _Toca a Pisadinha_
+(inclusive, você acabou de cair no guitarra humana escrito).
 
-<div align="center" style="float: left">
-  <img alt="SMS" width="250" src="https://raw.githubusercontent.com/haskellcamargo/gemidao-do-zap/master/resources/sms.png" /><img alt="SMS" width="250" src="https://raw.githubusercontent.com/haskellcamargo/gemidao-do-zap/master/resources/call.png" />
-</div>
 
 
 ## Como funciona?
@@ -34,40 +31,30 @@ Do `node` acima da **versão 6**.
 
 ## Instalação
 
-`sudo npm install -g gemidao-do-zap`
+`sudo npm install -g human-guitar`
 
-Você terá disponível globalmente o comando `gemidao-do-zap`.
+Você terá disponível globalmente o comando `human-guitar`.
 
 ### Parâmetros
 
 | Parâmetro | Obrigatório        | Descrição                                                 |
 |-----------|--------------------|-----------------------------------------------------------|
 | `--token` | :white_check_mark: | Seu token de acesso do TotalVoice                         |
-| `--de`    |                    | Quem está enviando o gemidão? Qualquer número telefônico! |
-| `--para`  | :white_check_mark: | Quem é a vítima do gemidão do zap?                        |
+| `--de`    |                    | Quem está enviando o guitarra? Qualquer número telefônico! |
+| `--para`  | :white_check_mark: | Quem é a vítima do guitarra do zap?                        |
 | `--sms`   |                    | Se definido, será enviado um SMS ao invés de uma chamada  |
 
 ### Exemplo
 
-`gemidao-do-zap --de=47998569631 --para=47996326548 --token=ade6a19ecee14577634f66af105eb68c`
+`human-guitar --de=47998569631 --para=47996326548 --token=ade6a19ecee14577634f66af105eb68c`
 
 Observações:
 
 - Somente chamadas brasileiras. Omita o `+55`
 - A função de SMS é _alpha_. Por enquanto, funciona somente para o número cadastrado
 
-A vítima receberá uma ligação e, quando atender, ouvirá o delicioso gemido do zap!
+A vítima receberá uma ligação e, quando atender, ouvirá a famosa guitarra humana!
 
-### Cadê o áudio?
-
-O arquivo encontra-se [neste link](http://prtnsrc.com/2545.mp3). Abra por sua conta e risco!
-
-## Docker
-
-Para quem quer rodar via Docker
-
-`$ docker build -t gemidao-do-zap -f Dockerfile .`
-`$ docker run --name --rm gemidao-do-zap -e DE={{telefone}} -e PARA={{telefone}} -e TOKEN={{token}} gemidao-do-zap`
 
 
 ## Por quê!?
@@ -79,3 +66,6 @@ Porque somos brasileiros!
 
 Os autores deste projeto não possuem qualquer ligação com a TotalVoice.
 TotalVoice é uma marca registrada.
+
+###Este projeto é um fork do gemidao-do-zap
+Link do projeto: https://github.com/haskellcamargo/gemidao-do-zap
