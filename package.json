@@ -1,6 +1,6 @@
 {
   "name": "human-guitar",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Uma aplicação de linha de comando que liga para alguém tocando a guitarra humana",
   "bin": {
     "human-guitar": "./dist/cli.js"
