@@ -13,7 +13,6 @@ ligação da mãe dele e, quando ele atender, _Toca a Pisadinha_
 (inclusive, você acabou de cair no guitarra humana escrito).
 
 
-
 ## Como funciona?
 
 Utilizamos a API de chamadas da *TotalVoice*. Você precisa criar uma conta
