@@ -66,5 +66,6 @@ Porque somos brasileiros!
 Os autores deste projeto não possuem qualquer ligação com a TotalVoice.
 TotalVoice é uma marca registrada.
 
+
 ###Este projeto é um fork do gemidao-do-zap
 Link do projeto: https://github.com/haskellcamargo/gemidao-do-zap
